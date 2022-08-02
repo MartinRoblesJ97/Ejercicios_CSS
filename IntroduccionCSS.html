@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apuntes Introducción CSS</title>
+
+    <!--Aquí se vincula el archivo CSS con el HTML-->
+    <link rel="stylesheet" href="Assets/css/style.css">
+
+    <!-- Podemos agregar estilos de 3 formas.
+        - Externs con la etiqueta <Link>, esta es una buena práctica de programación.
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        - Interna directamente en el atributo de la etiqueta
+        <p style="font-size: medium; color: blueviolet;">
+        
+        - Interna dentro de la etiqueta <style>
+        <style> p { color: brown;} </style>
+    -->
+
+    <!-- Si se quisiera tener la segunda jerarquia de importancia se tendría;
+    <style>
+        P{color:rgb(0, 47, 255);}
+    </style> -->
+
+    <!--Cuando agregamos estilos de forma interna, siempre se tomara con mayor jerarquia el estilo que este incrustado directamente en la etiqueta, pasando por alto todos los estilos adicionales que lo afecten.
+    
+    Jerarquia:
+     1. Lo que está de forma interna en la etiqueta.
+     2. Lo que se agrega dentro de etiquetas style
+     3. Lo que se agrega de forma externa.
+    -->
+
+    <p style="font-size: medium; color:red">Este es un parrago para probar diferentes estilos. Mala práctica 1</p><br>
+
+    <p>Este es un parrago para probar diferentes estilos. Mala práctica 2</p><br>
+
+    <p>Este es un parrago para probar diferentes estilos. Buena práctica 1</p><br>
+
+    <h3>Este es el salón de clases de la Cohorte 15</h3><br>
+
+    <span id="Jaciel" class="Cohorte15">Jaciel</span><br>
+    <span id="Maryana" class="Cohorte15">Maryana</span><br>
+    <span id="Paulina" class="Cohorte15">Paulina</span><br>
+    <span id="Vanessa" class="Cohorte15">Vanessa</span><br>
+    <span id="Ulises" class="Cohorte15">Ulises</span><br>
+    <br>
+    <br>
+
+    <!--Código HTML para mi caja flotante-->
+    <div class="caja_flotante">
+        Hola, soy un DIV. Usame para mostrar el  modelo de cajas
+        <div class="cabecera">Soy una cabecera</div>
+        <div class="contenido">Soy un contenido dentro de la caja. Estoy practicando el modelo de cajas en Generation</div>
+        <div class="footer">
+            <button class="primario">Aceptar</button>
+            <button class="secundario">Cancelar</button>
+        </div>
+    </div>
+    <!--Aquí termina mi caja flotante-->
+    <br>
+
+    <!--botones-->
+    <button class="Facebook">Facebook</button>
+    <button class="Instagram">Instagram</button>
+    <button class="Tiktok">Tiktok</button>
+
+    
+</head>
+<body>
+    
+</body>
+</html>

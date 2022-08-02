@@ -1,0 +1,89 @@
+p{color: rgb(145, 58, 0); background-color: rgb(0, 81, 255);}
+
+body{background-color: pink;}
+
+.Cohorte15{background-color: blue;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+#Jaciel{color: red;}
+#Maryana{color: crimson;font-size: large;}
+
+
+
+.caja_flotante{
+    margin: 40px 30px  0px 30px; 
+    background-color: white; 
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: grey; 
+    border-radius: 5px;
+    border-top: solid 0px;}
+
+.contenido{padding: 15px;}
+
+.cabecera{padding: 10px;
+border-bottom: solid 1px rgb(17, 16, 16);}
+
+.footer{padding: 10px;
+border-top: solid 1px rgb(56, 55, 55);}
+
+.primario{background-color: #0090ff;
+    border: 0px; /*Quitar el borde*/
+    padding: 5px; /*Dar espacio al contenido del botón*/
+    color: #ffff; /*Color al texto del botón*/
+    border-radius: 2px;} /*Redondeo las esquinas de mi botón*/
+
+.secundario{background-color: #8f9192;
+    border: 0px; 
+    padding: 5px;
+    color: #ffff; 
+    border-radius: 2px;} 
+
+.Facebook{margin: 20px;
+        padding: 15px;
+        background-color: #3b5998;
+        color: white;
+        font-size: 20px;
+        border: 2px solid #cccccc;
+        border-radius: 10px;}
+
+.Instagram{margin: 20px;
+        padding: 15px;
+        background-color: #8134af;
+        color: white;
+        font-size: 20px;
+        border: 2px solid #cccccc;
+        border-radius: 10px;}
+
+.Tiktok{margin: 20px;
+        padding: 15px;
+        background-color: #000000;
+        color: white;
+        font-size: 20px;
+        border: 2px solid #cccccc;
+        border-radius: 10px;}
+
+/* Estilos de la caja. Todos los elementos de HTML se trata como si estuvieran dentro de una caja */
+
+/*
+Selectores
+
+    - Selectores por etiqueta
+
+    Son instrucciones que podemos usar para seleccionar nuestras ETIQUETAS de HTML. Los selectores son una manera de identificar una etiqueta en particular.
+
+    Una vez que seleccionamos nuestro elemento, abrirelos llaves para poder modificar sus propiedades. Cerramos las llaves cuando terminemos de modificar.
+
+    - Selectores por clase
+
+    Cuando usamos una clase, podemos realizar la misma modificaciones para todos los elementos que tengan esa clase en comun. Para modificarlo, los seleccionas con un punto.
+
+    Ejemplo:
+        .nomnreDeLaClase
+
+
+    - Selectores por ID
+
+    Usamos un ID como manera de identificacion de un elemento en particular, y lo seleccionamos con el signo de gato o numeral
+
+    Ejemplo:
+        #nombreDelId
+*/

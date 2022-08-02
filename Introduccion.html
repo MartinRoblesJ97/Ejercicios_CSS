@@ -1,0 +1,167 @@
+
+<!--Primer comentario-->
+
+<!DOCTYPE html><!--Se indica el tipo de documento-->
+<html lang="en"><!--Se especifica el lenguaje-->
+
+<!--Aquí comienza la cabecera-->
+<head>
+    <meta charset="UTF-8"><!--Tipo de codificación del documento
+    para pooder usar ñ y acentos-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Navegador con el
+    que es compatible-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--View port se refiere al ancho de pantalla que va
+    a mostrar, se ajusto a la pantalla-->
+    <title>Primera página en HTML</title> <!--Este se ve en la pestaña del navegador-->
+</head>
+<!--Aquí termina la cabecera-->
+
+<!--Aquí comienza el cuerpo de nuestro documento-->
+<body>
+ <!--Etiquetas de título: h1 a h6. Las etiquetas de cabecera de texto nos permiten crear un encabezado. Sus atributos permiten definir el estilo de estas-->
+<h1>Martín Alejandro Robles Juárez</h1>
+<h2>Desarrollador Java Full Stack</h2>
+<h3>Tema 1</h3>
+<h4>Subtema 1</h4>
+<h5>Sub-subtema 1</h5>
+<h6>Sub-sub-subtema 1</h6>
+
+<!--Los parrafos nos permiten agregar información estructurada a nuestro documento. Se pueden modificar su estilo.-->
+<p>Vamos a poner el primer parrafo</p>
+
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, iste perspiciatis sint natus veritatis cumque magni eius quia debitis harum sequi id? Doloribus rem placeat vero et, sapiente molestiae totam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, iste perspiciatis sint natus veritatis cumque magni eius quia debitis <b><u>Martín</u></b> harum sequi id? Doloribus rem placeat vero et, sapiente molestiae totam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, iste perspiciatis sint natus veritatis cumque magni eius quia debitis harum sequi id? Doloribus rem placeat vero et, sapiente molestiae totam.</p>
+
+<!--Esta es la forma en que se anidan etiquetas-->
+<p>
+    <b>
+        <u>
+  
+        </u>
+    </b>
+</p>
+
+<p>
+<b><em>Frase en cursiva y en negritas</em><b><br>
+<strong><i>Forma alternativa de poner frase en cursiva y en negritas</i></strong>
+</p>
+
+<!--Etiquetas divisorias y separadores hr y br; hr da una separación entre parrafos, br Nos sirve para dar una separación entre parrafos. No necesitan etiquetas de cierre-->
+
+<!--Etiquetas de enlace; Los enlaces permiten la navegación por medio
+de hipervinculos que realizan la conexión y referencias a otros archivos dentro de la misma aplicación o de manera externa.
+-->
+
+<!--href; atributo que permite definir la ubicación de la página a la que nos vamos a enlazar. Este atributo puede ser un URL o una ubicación dentro de nuestra carpeta de assets. Se pone dentro de comillas la dirección-->
+
+<a>Este es un enlace, como no tiene ninguna referencia, no hace navegador.</a>
+
+<a href="https://wwww.google.com" target="_blank">Visita la página de google para buscar más fotos de perritos playeros</a><hr>
+<a href="/CSS/Assets/img/Perrito_Playero.jpg" target="_blank">Abre una bonita foto de un perrito playero</a><hr>
+
+<!--Otros enlaces que nos pueden servir;
+Enlaces de correo: mailto:dirección
+Enlaces de descarga: Dentro de href se puede colocar la dirección del archivo a descargar, y el valor download que nos permite definir el nombre del archivo
+-->
+
+
+<a href="mailto:m_alejandro_robles@outlook.com"> Enviame un correo electronico</a><br>
+
+<a href="assets/Perrito_Playero.jpg" download> Descarga la foto de un perrito</a><hr>
+
+<!--Etiquetas de listas ordenadas desordenadas y listas de definiciones (uL, oL, dL)
+
+Las listas en HTML nos permite crear conjuntos de elementos en forma de lista dentro de una página. Estos elementos irán precedidos por un guión o número.
+
+- Listas ordenadas: Son aquellas que nos muestran los elementos de la lista en orden. Para representar el orden, tendremos los elementos numeros, es decir, cada uno de los elementos irá precedido de un número o letra que establezca su orden. Las listas ordenadas se representan mediante la etiqueta ol.
+
+-start para definir el  orden inicial, por defecto es 1
+- type para indicar el tipo de lista que se va a crear.
+- decimal para números enteros.
+- lower-alpha para letras minusculas.
+- lower -roman para letras minusculas en romano.
+- upper-alpha para letras mayusculas
+- upper-roman para mayuscas en romano
+- reversed: para invertir el orden de los elementos
+-->
+
+<h3>Lista ordenada de perritos sin atributos</h3>
+<ol> <!--Order list-->
+    <li>Dalmata</li> <!--List item-->
+    <li>Labrador</li>
+    <li>Chihuahua</li>
+    <li>Pitbul</li>
+    <li>Pastor alemán</li>
+</ol><br>
+
+<h3>Esta es una lista ordenada de perritos con atributos</h3>
+<ol type="a" start="15"> 
+    <li>Dalmata</li> <!--List item-->
+    <li>Labrador</li>
+    <li>Chihuahua</li>
+    <li>Pitbul</li>
+    <li>Pastor alemán</li>
+</ol>
+
+<h3>Esta es una lista ordenada de perritos con atributos</h3>
+<ul type="square"> 
+    <li>Dalmata</li> <!--List item-->
+    <li>Labrador</li>
+    <li>Chihuahua</li>
+    <li>Pitbul</li>
+    <li>Pastor alemán</li>
+</ul>
+
+<h3>Lista de definiciones</h3>
+<dl>
+    <dt>Gato</dt>
+    <dd>Mamífero carnívoro de la familia de los Félidos, digitígrado, doméstico, de unos cinco decímetros de largo desde la cabeza hasta el arranque de la cola, que por sí sola mide dos decímetros aproximadamente. Pareciera que planean dominar al mundo</dd>
+    <dt>Perro</dt>
+    <dd>Mamífero doméstico de la familia de los cánidos, de tamaño, forma y pelaje muy diversos, según las razas, que tiene olfato muy fino y es inteligente y muy leal a su dueño. Es el mejor amigo del hombre</dd>
+</dl>
+
+<!--Etiquetas de imagen (img)
+
+    La etiqueta img nos permite agregar una imagen en un documento web. Entre los formatos aceptados más populares para las imágenes son: jpeg, png, gif y webp.
+
+    Debemos tener en centa que el tamaño de la imagen influye en el proceso de carga de la página. Y por tanto se suelen preparar las imagnes para que su peso sea menor. https://tinypng.com/
+
+    Los atributos de la etiqueta img son:
+
+    - src: es el atributo que nos permite definir la ubicación de la imagen.
+    - alt: es el atributo que nos permite definir una descripción de la imagen.
+    - width: es el atributo que nos permite definir el ancho de la imagen.
+    - height: es el atributo que nos permite definir el alto de la imagen.-->
+
+<img src="/CSS/Assets/img/Perrito_Playero.jpg" width="500px" 
+alt="Esta es una foto de un perrito playero">
+
+<!--Etiquetas de divisiones (div y span)
+
+     Las etiquetas div y span no tienen ningun signidicado especial, sólo que la etqueta div se define como un elemento bloque y la etiqueta span es un elemento de linea.
+
+    -div: Este es un bñoque de texto, se utiliza pra agrupar elementos en una sola seccion, es decir, si queremos agrupar una imagen y un texto, debemos utilizar un div.-->
+
+<div align="center" style="color: blueviolet; font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;"> 
+<img src="/Assets/Perrito_Playero.jpg" alt="Perrito Playero" width="200" height="200">
+<p>Este texto donde vemos a un bonito perro playero. Este texto está dentro de un div, por lo que si le agregamos estilos directamente al div, podemos agregar colores, fuentes, etc.</p>
+<p>Incluso podemos agregar listas a este div, y como te puedes dar cuenta, también se le agregan los estilos, por lo que los elementos de la lista también se centrarán de un color morado.</p>
+<ul>
+    <li> Un elemento de lista centrado </li>
+            <li> Otro elemento de lista centrado </li>
+</ul>
+</div>
+   
+<div align="center" style="border: 10px dotted blue;">
+<h3 >Ejemplo de div y span </h3>
+<p>
+Esto es un párrafo dentro de un div,
+<span style="color: red;"> y esto un span dentro de un párrafo. </span>
+</p>
+</div>
+    
+
+</body>
+<!--Aquí termina el cuerpo de nuestro documento-->
+
+</html>
